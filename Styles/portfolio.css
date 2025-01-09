@@ -30,6 +30,9 @@
     font-size: 20px;
     border: none;
 }
+.text-centre{
+    text-align: center;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -87,7 +90,6 @@ nav ul{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 /* Main Styles */
 main{
@@ -104,4 +106,18 @@ main{
 }
 .item-title{
     color: #757575;
+}
+/* Skills Container  */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
